@@ -1,25 +1,21 @@
-const nilaiUnRata = (data) => {
-    let dataLength = data.length -1;
-    let hasil = 0;
-    for(let i =0; i <= dataLength; i++){
-        hasil += data[i]; 
-    }
+const mat = 80;
+const bahasaIndonesia = 90;
+const bahasaInggris = 89;
+const ipa = 69;
 
-    let rataRata = hasil / data.length
+let rataRata = (mat + bahasaIndonesia + bahasaInggris + ipa) / 4;
 
-    rataRata <= 90 ?
-        console.log("Grade = A \nRata Rata ="+ rataRata)
-    : rataRata > 90 ?
-        console.log("Grade = B \nRata Rata ="+ rataRata)
-    : rataRata >80 ?
-        console.log("Grade = C \nRata Rata ="+ rataRata)
-    : rataRata >70 ?
-        console.log("Grade = D \nRata Rata ="+ rataRata)
-    :   console.log("Grade = E \nRata Rata ="+ rataRata)
-    
-}
+rataRata <= 90 ?
+    console.log("Grade = A \nRata Rata ="+ rataRata)
+: rataRata > 90 ?
+    console.log("Grade = B \nRata Rata ="+ rataRata)
+: rataRata >80 ?
+    console.log("Grade = C \nRata Rata ="+ rataRata)
+: rataRata >70 ?
+    console.log("Grade = D \nRata Rata ="+ rataRata)
+:   console.log("Grade = E \nRata Rata ="+ rataRata)
 
 
 // masukan nilai dengan urutan [mtk, bahasa indonesia,bahasa inggris,ipa]
-nilaiUnRata([80,90,89,69]);
+
 
