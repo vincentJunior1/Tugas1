@@ -1,9 +1,9 @@
 const triangle = (num) => {
     let hasil = '';
     if (typeof num === 'number') {
-        for (let i = num; i >= 0; i--) {
-            for (let a = i; a >= 0; a--) {
-                hasil += a + 1
+        for (let i = num; i >= 1; i--) {
+            for (let a = 1; a <= i; a++) {
+                hasil += a 
             }
             hasil += '\n';
         }
@@ -14,4 +14,4 @@ const triangle = (num) => {
 }
 
 
-triangle(3);
+triangle(5);

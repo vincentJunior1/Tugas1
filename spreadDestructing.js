@@ -16,7 +16,7 @@ let data =
 }
 
 let newData = 
-{
+{   
     ...data,
     ...{
         name:"vincent junior",
@@ -30,4 +30,4 @@ let {street, city} = data.address
 
 console.log(newData);
 
-console.log("This is your street: " + street +" and this is the city :",city)
+console.log(`This is what you got ${street} and ${city}`)
