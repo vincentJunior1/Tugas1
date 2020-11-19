@@ -26,7 +26,7 @@ let newData =
 
 }
 
-let {address:{street, city}} = newData
+let {street, city} = data.address
 
 console.log(newData);
 

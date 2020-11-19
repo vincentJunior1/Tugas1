@@ -29,12 +29,21 @@ const biodata = {
     ],
     skills:[
         {
-            coding:"beginer",
-            Modeling3D:"beginer",
-            Hardware:"advanced",
-            networking:"beginer",
-            videoEditing:"advanced"
-        }
+            skillName:'php' ,
+            level:'Beginer' ,
+        },
+        {
+            skillName:'3D' ,
+            level:'Beginer' ,
+        },
+        {
+            skillName:'Video Editing' ,
+            level:'Advanced' ,
+        },
+        {
+            skillName:'Hardware' ,
+            level:'Advanced' ,
+        },
 
     ],
     interestInCoding:true,
